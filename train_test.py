@@ -15,9 +15,8 @@ def main():
     model.train(tweets)
     model.dump_model(model_out_dir)
 
-    # -------Test----------
+    # -------Predict----------
     predictions = model.predict(tweets)
-    pause=0
 
 if __name__ == '__main__':
     main()

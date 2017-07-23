@@ -1,8 +1,13 @@
 class Tweet(object):
-    def __init__(self, handle, text,timestamp, name, id, gold_label):
+    def __init__(self, handle,text,time,desc, polarity, subjectivity, loc, followers, user_created,label=None):
         self.text=text
+        self.time=time
+        self.desc = desc
+        self.polarity = polarity
+        self.subjectivity=subjectivity
+        self.loc = loc
+        self.followers=followers
+        self.user_created=user_created
         self.handle = handle
-        self.timestamp = timestamp
-        self.name = name
         self.id = id
-        self.gold_label = gold_label
+        self.gold_label = label

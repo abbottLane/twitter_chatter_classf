@@ -1,3 +1,6 @@
 
 .idea/workspace.xml
 /Resources/twitter_scrapes/
+/TwitterAPI/private.py
+/TwitterAPI/tweets.db
+/TwitterAPI/bitcoin_tweets.csv

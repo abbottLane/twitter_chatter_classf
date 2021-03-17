@@ -8,7 +8,7 @@ class TweetLoader():
         self.input_dir = input_dir
         self.classes = None
 
-    def load_tweets(self, test=False):
+    def load_tweets(self, test = False):
         '''
         Reads data from input dir, builds Tweet objects, returns list of all Tweet objs
         :return: list of Tweet objects

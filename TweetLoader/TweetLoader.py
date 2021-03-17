@@ -18,7 +18,7 @@ class TweetLoader():
             data = csv.reader(csv_file)
             col2lab_map = dict()
             for i, row in enumerate(data):
-                if i==0:
+                if i == 0:
                     # create column number-to-label mapping
                     label_cols = row[16:]
                     for i, col in enumerate(label_cols):

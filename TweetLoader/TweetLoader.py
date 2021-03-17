@@ -6,7 +6,7 @@ from DataModels.DataModels import Tweet
 class TweetLoader():
     def __init__(self, input_dir):
         self.input_dir = input_dir
-        self.classes =None
+        self.classes = None
 
     def load_tweets(self, test=False):
         '''
